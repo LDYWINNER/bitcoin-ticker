@@ -25,11 +25,14 @@ function Chart({ coinId }: ChartProps) {
         refetchInterval: 5000,
     });
     return <div>{isLoading ? "Loading chart..." : <ApexChart
-        type="line"
+        type="candlestick"
         series={[
             {
                 name: "Price",
-                data: data?.map((price) => parseInt(price.close, 10)) ?? []
+                data: data?.map((price) => ({
+                    x: price.time_open,
+                    y: [price.open, price.high, price.low, price.close],
+                })) ?? [],
             },
         ]}
         options={{
