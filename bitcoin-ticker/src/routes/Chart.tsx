@@ -30,7 +30,7 @@ function Chart({ coinId }: ChartProps) {
             {
                 name: "Price",
                 data: data?.map((price) => ({
-                    x: price.time_open,
+                    x: price.time_close,
                     y: [price.open, price.high, price.low, price.close],
                 })) ?? [],
             },
