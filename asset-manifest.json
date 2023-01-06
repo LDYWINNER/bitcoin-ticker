@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.js": "/bitcoin-ticker/static/js/main.872e8c40.chunk.js",
-    "main.js.map": "/bitcoin-ticker/static/js/main.872e8c40.chunk.js.map",
+    "main.js": "/bitcoin-ticker/static/js/main.fb907be1.chunk.js",
+    "main.js.map": "/bitcoin-ticker/static/js/main.fb907be1.chunk.js.map",
     "runtime-main.js": "/bitcoin-ticker/static/js/runtime-main.f734028a.js",
     "runtime-main.js.map": "/bitcoin-ticker/static/js/runtime-main.f734028a.js.map",
-    "static/js/2.44036f4b.chunk.js": "/bitcoin-ticker/static/js/2.44036f4b.chunk.js",
-    "static/js/2.44036f4b.chunk.js.map": "/bitcoin-ticker/static/js/2.44036f4b.chunk.js.map",
+    "static/js/2.94c00380.chunk.js": "/bitcoin-ticker/static/js/2.94c00380.chunk.js",
+    "static/js/2.94c00380.chunk.js.map": "/bitcoin-ticker/static/js/2.94c00380.chunk.js.map",
     "index.html": "/bitcoin-ticker/index.html",
-    "static/js/2.44036f4b.chunk.js.LICENSE.txt": "/bitcoin-ticker/static/js/2.44036f4b.chunk.js.LICENSE.txt"
+    "static/js/2.94c00380.chunk.js.LICENSE.txt": "/bitcoin-ticker/static/js/2.94c00380.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.f734028a.js",
-    "static/js/2.44036f4b.chunk.js",
-    "static/js/main.872e8c40.chunk.js"
+    "static/js/2.94c00380.chunk.js",
+    "static/js/main.fb907be1.chunk.js"
   ]
 }
